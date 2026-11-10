@@ -1,0 +1,13 @@
+{
+  "name": "bens-games",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "verify:realtime": "node prototype/verify.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.65.0",
+    "typescript": "^7.0.2",
+    "wrangler": "^4.160.0"
+  }
+}
